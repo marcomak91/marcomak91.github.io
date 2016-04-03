@@ -224,7 +224,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(42, 101, 145, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -338,8 +338,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #ee4b28;
-  border-color: #ed431f;
+  background-color: ##1c497c;
+  border-color: ##1c497c;
 }
 .btn-primary:active,
 .btn-primary.active,
