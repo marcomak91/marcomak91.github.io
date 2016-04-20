@@ -286,8 +286,6 @@ header .header-content .header-content-inner p {
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
-.btn-default:active,
-.btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #222222;
   background-color: #f2f2f2;
@@ -309,13 +307,7 @@ fieldset[disabled] .btn-default:hover,
 fieldset[disabled] .btn-default:focus,
 .btn-default.disabled.focus,
 .btn-default[disabled].focus,
-fieldset[disabled] .btn-default.focus,
-.btn-default.disabled:active,
-.btn-default[disabled]:active,
-fieldset[disabled] .btn-default:active,
-.btn-default.disabled.active,
-.btn-default[disabled].active,
-fieldset[disabled] .btn-default.active {
+fieldset[disabled] .btn-default.focus {
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -334,8 +326,6 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
-.btn-primary:active,
-.btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
   background-color: #1c497c;
@@ -357,13 +347,7 @@ fieldset[disabled] .btn-primary:hover,
 fieldset[disabled] .btn-primary:focus,
 .btn-primary.disabled.focus,
 .btn-primary[disabled].focus,
-fieldset[disabled] .btn-primary.focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
+fieldset[disabled] .btn-primary.focus {
   background-color: #2A6591;
   border-color: #2A6591;
 }
