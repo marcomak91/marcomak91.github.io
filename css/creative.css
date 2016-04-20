@@ -26,8 +26,7 @@ a {
   transition: all 0.35s;
   color: white;
 }
-a:hover,
-a:focus {
+a:hover {
   color: #A9C1D3;
 }
 h1,
@@ -76,28 +75,23 @@ aside {
   font-weight: 700;
   text-transform: uppercase;
 }
-.navbar-default .navbar-header .navbar-brand:hover,
-.navbar-default .navbar-header .navbar-brand:focus {
+.navbar-default .navbar-header .navbar-brand:hover {
   color: #222222;
 }
-.navbar-default .nav > li > a,
-.navbar-default .nav > li > a:focus {
+.navbar-default .nav > li > a {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
   color: #222222;
 }
-.navbar-default .nav > li > a:hover,
-.navbar-default .nav > li > a:focus:hover {
+.navbar-default .nav > li > a:hover { 
   color: #2A6591;
 }
-.navbar-default .nav > li.active > a,
-.navbar-default .nav > li.active > a:focus {
+.navbar-default .nav > li.active > a {
   color: #2A6591 !important;
   background-color: transparent;
 }
-.navbar-default .nav > li.active > a:hover,
-.navbar-default .nav > li.active > a:focus:hover {
+.navbar-default .nav > li.active > a:hover {
   background-color: transparent;
 }
 @media (min-width: 768px) {
@@ -108,16 +102,13 @@ aside {
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
-  .navbar-default .navbar-header .navbar-brand:hover,
-  .navbar-default .navbar-header .navbar-brand:focus {
+  .navbar-default .navbar-header .navbar-brand:hover {
     color: white;
   }
-  .navbar-default .nav > li > a,
-  .navbar-default .nav > li > a:focus {
+  .navbar-default .nav > li > a {
     color: rgba(255, 255, 255, 0.7);
   }
-  .navbar-default .nav > li > a:hover,
-  .navbar-default .nav > li > a:focus:hover {
+  .navbar-default .nav > li > a:hover {
     color: white;
   }
   .navbar-default.affix {
@@ -128,16 +119,13 @@ aside {
     color: #2A6591;
     font-size: 14px;
   }
-  .navbar-default.affix .navbar-header .navbar-brand:hover,
-  .navbar-default.affix .navbar-header .navbar-brand:focus {
+  .navbar-default.affix .navbar-header .navbar-brand:hover {
     color: #222222;
   }
-  .navbar-default.affix .nav > li > a,
-  .navbar-default.affix .nav > li > a:focus {
+  .navbar-default.affix .nav > li > a {
     color: #222222;
   }
-  .navbar-default.affix .nav > li > a:hover,
-  .navbar-default.affix .nav > li > a:focus:hover {
+  .navbar-default.affix .nav > li > a:hover {
     color: #2A6591;
   }
 }
@@ -284,8 +272,6 @@ header .header-content .header-content-inner p {
   transition: all 0.35s;
 }
 .btn-default:hover,
-.btn-default:focus,
-.btn-default.focus,
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
@@ -304,12 +290,6 @@ fieldset[disabled] .btn-default,
 .btn-default.disabled:hover,
 .btn-default[disabled]:hover,
 fieldset[disabled] .btn-default:hover,
-.btn-default.disabled:focus,
-.btn-default[disabled]:focus,
-fieldset[disabled] .btn-default:focus,
-.btn-default.disabled.focus,
-.btn-default[disabled].focus,
-fieldset[disabled] .btn-default.focus,
 .btn-default.disabled:active,
 .btn-default[disabled]:active,
 fieldset[disabled] .btn-default:active,
@@ -332,8 +312,6 @@ fieldset[disabled] .btn-default.active {
   transition: all 0.35s;
 }
 .btn-primary:hover,
-.btn-primary:focus,
-.btn-primary.focus,
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
@@ -352,12 +330,6 @@ fieldset[disabled] .btn-primary,
 .btn-primary.disabled:hover,
 .btn-primary[disabled]:hover,
 fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled.focus,
-.btn-primary[disabled].focus,
-fieldset[disabled] .btn-primary.focus,
 .btn-primary.disabled:active,
 .btn-primary[disabled]:active,
 fieldset[disabled] .btn-primary:active,
